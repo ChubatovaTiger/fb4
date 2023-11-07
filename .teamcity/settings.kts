@@ -28,6 +28,10 @@ project {
 
     buildType(Build3)
     buildType(Build1)
+    params {
+        param("par1", "val1")
+    }
+
 }
 
 object Build1 : BuildType({
